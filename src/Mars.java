@@ -39,8 +39,11 @@ public class Mars {
         //
         landing = landingCheck((int) Math.floor(Math.random() * 10 + 1));
 
+        System.out.println();
+        new GuessingGame();
 
-        GuessingGame game = new GuessingGame();
+        System.out.println();
+        new MarsExpedition();
     }
 
     private static boolean landingCheck(int minutesLeft) throws InterruptedException {
