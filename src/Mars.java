@@ -37,7 +37,10 @@ public class Mars {
         }
 
         //
-        landing = landingCheck((int) Math.floor(Math.random() * 100 + 1));
+        landing = landingCheck((int) Math.floor(Math.random() * 10 + 1));
+
+
+        GuessingGame game = new GuessingGame();
     }
 
     private static boolean landingCheck(int minutesLeft) throws InterruptedException {
