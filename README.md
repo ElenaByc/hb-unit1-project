@@ -20,19 +20,19 @@ Has a function called *landingCheck*
   - Has an if-else` statement in the for loop
 
 **GuessingGame.java**  
-Contains a public constructor called *guessingGame*
+Contains a public constructor called *GuessingGame*
   - Use Scanner accept the user’s input
   - Has a while loop that contains
     - a try-catch statement for the user guess
     - an if-else statement to check if the guess is correct
 
 **MarsExpedition.java**  
-Contains a public constructor called *marsExpedition*
+Contains a public constructor called *MarsExpedition*
   - Use Scanner accept the user’s input
   - Use an if-else statement to produce output depending on user input
 
 **FindingsList.java**  
-Contains a public constructor called *findingsList*
+Contains a public constructor called *FindingsList*
   - Create an ArrayList with four strings
   - Remove a string from the ArrayList
   - Create a Hashmap with three strings
