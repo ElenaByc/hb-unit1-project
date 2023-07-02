@@ -44,6 +44,9 @@ public class Mars {
 
         System.out.println();
         new MarsExpedition();
+
+        System.out.println();
+        new FindingsList();
     }
 
     private static boolean landingCheck(int minutesLeft) throws InterruptedException {
