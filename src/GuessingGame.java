@@ -53,6 +53,5 @@ public class GuessingGame {
             }
         }
 
-        input.close();
     }
 }

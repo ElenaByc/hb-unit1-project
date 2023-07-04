@@ -89,7 +89,5 @@ public class MarsExpedition {
         System.out.println("1 ...");
         Thread.sleep(250);
         System.out.println("GO GO GO!");
-
-        input.close();
     }
 }
