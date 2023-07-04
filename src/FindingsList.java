@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.Scanner;
 
 public class FindingsList {
@@ -15,7 +14,7 @@ public class FindingsList {
 
         // Create an array that will store string s
         // Add four rocks into your array - rock, weird rock, smooth rock, and not rock
-        ArrayList<String> rockList = new ArrayList<String>();
+        ArrayList<String> rockList = new ArrayList<>();
         rockList.add("rock");
         rockList.add("weird rock");
         rockList.add("smooth rock");
@@ -39,7 +38,7 @@ public class FindingsList {
 
         // Create a HashMap that stores elements with 2 attributes
         // (these will be a name and a description), both of which are strings
-        HashMap<String, String> fossilDirectory = new HashMap<String, String>();
+        HashMap<String, String> fossilDirectory = new HashMap<>();
 
         // Add 3 fossils and their description to the HashMap
         // Bird Fossil, The fossil has wings implying it was capable of flight
@@ -90,11 +89,9 @@ public class FindingsList {
         // Print the remaining supplies, label them something like “Supplies After Expedition”
         System.out.println();
         System.out.println("Supplies After Expedition");
-        // create Iterator object
-        Iterator itr = supplies.iterator();
 
-        while (itr.hasNext()) {
-            System.out.println(itr.next());
+        for (String supply : supplies) {
+            System.out.println(supply);
         }
 
         System.out.println();
