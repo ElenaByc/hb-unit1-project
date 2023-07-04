@@ -52,5 +52,7 @@ public class GuessingGame {
                 System.out.println("You found my number in " + tries + " tries!");
             }
         }
+
+        input.close();
     }
 }

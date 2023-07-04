@@ -98,5 +98,7 @@ public class FindingsList {
         // another way to print HashSet
         System.out.println(supplies);
 
+        input.close();
+
     }
 }
